@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Manrope:wght@600;800&display=swap');
+
+:root{
+  --accentA: #05f3d7;
+  --accentB: #7b61ff;
+  --accentC: #ff5ea2;
+}
+
+html,body,#__next { height:100%; }
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  margin:0;
+  background: linear-gradient(180deg,#061124 0%, #071427 100%);
+  color: #e7f3ff;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+a { color: inherit; }
+
+.bg-accent {
+  background: linear-gradient(90deg, var(--accentA), var(--accentB));
+}
